@@ -27,5 +27,5 @@ jobs:
       - name: Run a one-line script
         run: echo Hello Friend
 
-      - name: Another script
-        run: echo Hello from another script
+      - name: Muestra el contenido
+        run: ls -la
