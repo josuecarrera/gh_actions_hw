@@ -36,5 +36,5 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
 
 
-      - name: sync bucket
-        run: aws s3 sync ./file/ s3://${{ secrets.AWS_BUCKET_NAME  }} --delete
+      - name: blank bucket
+        run: aws s3 blank ./file/ s3://${{ secrets.AWS_BUCKET_NAME  }} --delete
